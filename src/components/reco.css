@@ -1,0 +1,96 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2, h3 {
+    color: #333;
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  select, input[type="checkbox"], button {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  .language-toggle {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .language-toggle button {
+    width: 45%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .language-toggle button:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .crop-checkboxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .crop-checkboxes div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .crop-checkboxes label {
+    margin-left: 5px;
+    font-weight: normal;
+    color: #333;
+  }
+  
+  #output {
+    padding: 15px;
+    background-color: #e9ecef;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  #output p {
+    margin: 8px 0;
+    color: #555;
+  }
+  

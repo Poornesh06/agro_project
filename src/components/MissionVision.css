@@ -1,0 +1,54 @@
+/* MissionVision.css */
+
+.mission-vision-container {
+    position: relative;
+    width: 100%;
+    height: 100%; /* Full viewport height */
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Background Video Styling */
+  .background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the video covers the entire background */
+    z-index: -1; /* Places the video behind other elements */
+  }
+  
+  /* Content Wrapper */
+  .content-wrapper {
+    position: relative;
+    z-index: 1; /* Places content above the video */
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5); /* Adds a semi-transparent background */
+    border-radius: 10px;
+    max-width: 875px;
+    margin: 50px auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Section Styling */
+  .section {
+    margin: 20px ;
+  }
+  
+  .icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }

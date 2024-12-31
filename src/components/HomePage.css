@@ -1,0 +1,90 @@
+.homepage-container {
+  display: flex;
+  flex-direction: column; /* Stack sections vertically */
+  align-items: center;
+  padding: 20px;
+  position: relative; /* Set relative positioning to contain the video */
+  overflow: hidden; /* Prevent content overflow */
+}
+
+.homepage-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Cover the entire container */
+  height: 100%; /* Stretch to cover the full container height */
+  object-fit: cover; /* Ensure the video covers the background without distortion */
+  z-index: -1; /* Place the video behind the content */
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  margin: 20px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9); /* Add slight transparency */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Ensure consistent width */
+  max-width: 800px; /* Limit the maximum width */
+  height: 350px; /* Set a fixed height for all sections */
+  z-index: 1; /* Ensure sections are above the video */
+}
+.section3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9); /* Add slight transparency */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Ensure consistent width */
+  max-width: 800px; /* Limit the maximum width */
+  height: 350px; /* Set a fixed height for all sections */
+  z-index: 1; /* Ensure sections are above the video */
+}
+.section-image {
+  max-width: 100%;
+  height: 140px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.section3-image {
+  max-width: 100%;
+  height: 140px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #6b4a2f; /* Adjust heading color */
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1rem;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.order-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.order-button:hover {
+  background-color: #45a049;
+}

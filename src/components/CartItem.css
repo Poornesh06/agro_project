@@ -1,0 +1,54 @@
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    gap: 20px;  /* Increased space between the components */
+  }
+  
+  .item-image {
+    width: 60px;  /* Adjusted image size for better spacing */
+    height: 60px;
+    object-fit: cover;
+    margin-right: 20px; /* Adjust space between image and text */
+  }
+  
+  .item-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;  /* Increased gap between item name and price */
+  }
+  
+  .item-name {
+    font-weight: bold;
+  }
+  
+  .item-quantity input {
+    width: 60px;
+    padding: 8px;
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  .item-total {
+    font-weight: bold;
+  }
+  
+  .remove-item {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 8px;  /* Reduced padding to decrease width */
+    width: 80px;  /* Set a fixed width for the button */
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .remove-item:hover {
+    background-color: #c0392b;
+  }
+  

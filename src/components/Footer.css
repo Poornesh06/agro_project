@@ -1,0 +1,168 @@
+.footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 2rem 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .footer-left,
+  .footer-middle,
+  .footer-right {
+    flex: 1;
+    margin: 0 1rem;
+  }
+  
+  .footer-logo {
+    width: 150px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 1rem; /* Add spacing below the logo */
+  }
+  
+  .footer-description {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    color: #fff;
+  }
+  
+  .footer-social i {
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .footer-social i:hover {
+    color: #4caf50;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-middle h3,
+  .footer-right h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  .footer-middle ul {
+    list-style: none;
+    padding: 0;
+    color: #fff;
+  }
+  
+  .footer-middle li {
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  .footer-middle li a {
+    color: transparent; /* Make the link text transparent to blend with the background */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth transition for hover */
+    color: #fff;  
+  }
+  
+  .footer-middle li a:hover {
+    color: #4caf50; /* Highlight the link on hover */
+  }
+  
+  .footer-middle li.active a {
+    font-weight: bold;
+    color: #4caf50;
+  }
+  
+  .footer-right p {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    color: #fff;
+  }
+  
+  .footer-newsletter {
+    display: flex;
+    margin-top: 1rem;
+  }
+  
+  .footer-newsletter input {
+    flex: 1;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .footer-newsletter button {
+    background-color: #4caf50;
+    border: none;
+    color: #fff;
+    padding: 0.7rem 1.2rem;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .footer-newsletter button:hover {
+    background-color: #45a049;
+    transition: background-color 0.3s ease;
+  }
+  
+  .footer-newsletter input::placeholder {
+    font-size: 0.9rem;
+    color: #bbb;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    
+    .footer-left,
+    .footer-middle,
+    .footer-right {
+      margin: 1rem 0;
+    }
+    
+    .footer-newsletter {
+      flex-direction: column;
+      align-items: stretch;
+    }
+    
+    .footer-newsletter input {
+      margin-bottom: 0.5rem;
+    }
+    
+    .footer-newsletter button {
+      border-radius: 5px;
+    }
+  }
+  
+  .footer-bottom {
+    background-color: #111;
+    color: #bbb;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.8rem;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }
+  .l4{
+    height: 25px;
+    width: 20px;
+  }
+  .l3{
+    height: 25px;
+    width: 20px;
+  }
